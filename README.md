@@ -2,7 +2,8 @@
 
 ## Description
 
-Here is your CODER training, just what you need to acquire knowledge through magic. What is never explained, we offer you here, intuitive and professional so that you recognise your skills. 
+Here is your CODER training, just what you need to acquire knowledge through magic. What is never explained, we offer you here, intuitive and professional so that you recognise your skills. ![emoticono28](https://user-images.githubusercontent.com/108950985/200850501-857c2c8b-d7af-4237-889c-3d60d4800b34.png)
+
 
 ## Members
 
