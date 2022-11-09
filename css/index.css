@@ -31,15 +31,13 @@ body {
 
 .mainFooter {
     display: flex;
-    align-items: center;
-    background-image: url("../images/background-footer.jpg");
+    background-color:#A239CA;
     padding: 35px 100px;
-    background-repeat: no-repeat;
     background-size: cover;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.footerInfo {
+.footerBusinessInfo {
     display: inline;
     font-family: "Teko";
     font-size: 18px;
@@ -47,10 +45,27 @@ body {
     color: white;
 }
 
-.footerSocialMedia a{
+.footerSiteMap {
+    display: flex
+    font-family: "Teko";
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.footerSocialMedia {
     padding: 0 20px;
 }
 
 .footerSocialMedia img {
     width: 35px;
+}
+.subFooter {
+    display: flex;
+    background-color: #e7dfdd;
+    font-family: "Teko";
+    font-size: 20px;
+    font-weight: 500;
+    color: black; 
+    justify-content: center; 
 }
