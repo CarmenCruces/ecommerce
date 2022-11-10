@@ -14,8 +14,9 @@ a {
     text-decoration: none !important;
 }
 
-h1, h2, h3, h4 {
-    margin: 10px 0;
+
+h1, h2, h3, h4, {
+    margin: 10px;
 }
 
 section {
@@ -60,7 +61,7 @@ section {
 .navBar {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
 
 }
 
@@ -68,11 +69,11 @@ section {
     width: 140px;
 }
 
-.navBar .cart {
+.navBar .cart, .navBar .menu {
     padding-top: 6px;
 }
 
-.navBar .cart img {
+.navBar .cart img, .navBar .menu img {
     width: 26px;
 }
 
@@ -112,8 +113,13 @@ section {
     text-align: center;
 }
 
+.homeTeamDescription h2{
+    margin: 20px 0;
+}
+
 .homeTeamDescription img{
     max-width: 100%;
+    margin-bottom: 20px;
 }
 
 .homeFeaturedCourser {
@@ -140,6 +146,7 @@ section {
 .homeCharacteristicsCourse > div {
     width: 50%;
     text-align: center;
+    padding: 10px;
 }
 
 .homeCharacteristicsCourse img {
@@ -153,6 +160,10 @@ section {
     padding: 4px 10px;
     border-radius: 0px;
     margin-bottom: 30px;
+}
+
+.catalogCourses h1 {
+    margin: 20px 0;
 }
 
 .catalogCourses h1, .catalogCourses p {
@@ -171,6 +182,10 @@ section {
     border: none;
 }
 
+.catalogCards .card img{
+    margin: 20px 0;
+}
+
 .catalogCards .card .cardBody a{
     font-size: 24px;
     padding: 6px 40px;
@@ -185,6 +200,10 @@ section {
 
 .productFile .card {
     border: none;
+}
+
+.productFile .card img {
+    margin: 20px 0;
 }
 
 .productFile .card ul {
@@ -203,6 +222,7 @@ section {
     color: white;
     width: 100%;
     border-radius: 0;
+    margin-bottom: 20px;
 }
 
 
@@ -210,7 +230,7 @@ section {
 
 .mainFooter {
     background-image: url("../images/background-footer.jpg");
-    padding: 35px 20px;
+    padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
@@ -230,7 +250,7 @@ section {
 }
 
 .mainFooter ul li {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     font-size: 20px;
 }
 
@@ -242,11 +262,16 @@ section {
 
 .footerSocialMedia {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .footerSocialMedia img{
     width: 50px;
     padding: 0 10px;
+}
+
+.footerSocialMedia form{
+    margin-top: 20px;
 }
 
 /*subfooter*/

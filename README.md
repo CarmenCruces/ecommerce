@@ -7,23 +7,26 @@ Here is your CODER training, just what you need to acquire knowledge through mag
 
 ## Members
 
-Paloma Ruiz Ramírez - Product Owner
+* Paloma Ruiz Ramírez - Product Owner
 https://github.com/birdsinyourgarden
-***
-Sierri Pérez Sánchez - SCRUM Master
+
+* Sierri Pérez Sánchez - SCRUM Master
 https://github.com/sierriconvoz
-***
-Carmen Cruces Fernández
+
+* Carmen Cruces Fernández
 https://github.com/CarmenCruces
-***
-Alesia Baldeón Machuca 
+
+* Alesia Baldeón Machuca 
 https://github.com/AlesiaCoder
-***
-Florencia Tiscornia 
+
+* Florencia Tiscornia 
 https://github.com/FlorTiscornia
 
 ## Screenshots
 
+![demohome](https://user-images.githubusercontent.com/108950985/201040794-c6005ea2-a38a-4b02-ad00-25b034e2558b.png)
+![democatalogo](https://user-images.githubusercontent.com/108950985/201040812-db2dfd60-8b9f-48a0-9c5a-568065ee1d8f.png)
+![demoproduct](https://user-images.githubusercontent.com/108950985/201040853-9b32e22d-922a-44e9-b353-50aceae52cbf.png)
 
 ## Stacks
 
@@ -35,4 +38,7 @@ We have worked with Agile methodology and SCRUM. We have also worked with Mob pr
 
 ## Next steps
 
+Integration of the favourites and shopping cart functionality.
+Implement the user management system. 
+Implementing the  Responsive in desktop version Header and Footer functionality.
 
