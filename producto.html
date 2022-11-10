@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" type="image7x-icon" href="./images/logo.png">
-    <link rel="stylesheet" href="https: //fonts.googleapis.com/css2? familia= Teko:peso@300;400;500;600;700 & display=swap">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>The Code Witches</title>
 </head>
@@ -14,36 +16,38 @@
     <header class="mainHeader">
         <div class="topBar">
             <a href="#">Contacto</a>
-            <div class="topBarPromo"></div>
+            <div class="topBarPromo"><marquee> ¡2x1 en todos los cursos! </marquee></div>
         </div>
 
         <div class="navBar">
             <div class="menu"></div>
             <div class="logo"><img src="./images/site-logo.png" alt="Logo The Witches"></div>
             <div class="cart">
-                <a href="#"><img src="#" alt="favoritos"></a>
-                <a href="#"><img src="#" alt="usuarios"></a>
-                <a href="#"><img src="#" alt="carrito de la compra"></a>
+                <a href="#"><img src="./images/icons/fav.svg" alt="favoritos"></a>
+                <a href="#"><img src="./images/logo.png" alt="usuarios"></a>
+                <a href="#"><img src="./images/icons/cart.svg" alt="carrito de la compra"></a>
             </div>
         </div>
     </header>
     <main>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="cardImgTop" alt="...">
-            <div class="cardBody">
-                <h1 class="cardTitle">Máster en Programación Witch</h1>
-                <p class="cardText">Bienvenides a nuestra Alquimia de Conocimento. Tu camino comienza en estos momentos, únete y comprobarás las altas capacidades que tienes para hacer de tu profesión el motor de la industria de la tecnología.
-                </p>
+        <section class="productFile">
+            <div class="card">
+                <img src="./images/acuarela.jpg" class="cardImgTop" alt="...">
+                <div class="cardBody">
+                    <h1 class="cardTitle">Máster en Programación Witch</h1>
+                    <p class="cardText">Bienvenides a nuestra Alquimia de Conocimento. Tu camino comienza en estos momentos, únete y comprobarás las altas capacidades que tienes para hacer de tu profesión el motor de la industria de la tecnología.
+                    </p>
+                </div>
+                <ul class="listGroup listGroupFlush">
+                    <li class="listGroupItem">Nivel: Inicial</li>
+                    <li class="listGroupItem">45 lecciones (135 horas)</li>
+                    <li class="listGroupItem">8901 Coders</li>
+                    <li class="listGroupItem">Semipresencial</li>
+                    <li class="listGroupItem">50 plazas</li>
+                </ul>
+                <a href="#" class="btn btnPrimary">Comprar</a>
             </div>
-            <ul class="listGroup listGroupFlush">
-                <li class="listGroupItem">Nivel: Inicial</li>
-                <li class="listGroupItem">45 lecciones (135 horas)</li>
-                <li class="listGroupItem">8901 Coders</li>
-                <li class="listGroupItem">Semipresencial</li>
-                <li class="listGroupItem">50 plazas</li>
-            </ul>
-            <a href="#" class="btn btnPrimary">Comprar</a>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="mainFooter">
@@ -61,10 +65,10 @@
                     </ul>
             </div>
             <div class="footerSocialMedia">
-                <a href="#"> <img src="./images/icons/fb-bl.png"></a>
-                <a href="#"> <img src="./images/icons/ig-bl.png"></a>
-                <a href="#"> <img src="./images/icons/tw-bl.png"></a>
-                <a href="#"> <img src="./images/icons/wa-bl.png"></a>
+                <a href="#"> <img src="./images/icons/fb.svg"></a>
+                <a href="#"> <img src="./images/icons/ig.svg"></a>
+                <a href="#"> <img src="./images/icons/tw.svg"></a>
+                <a href="#"> <img src="./images/icons/wa.svg"></a>
                 <form>
                     <input type="email" id="email" name="email" placeholder="Tu email">
                     <input type="button" value="Suscribirme">

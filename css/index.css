@@ -1,71 +1,262 @@
+/*formateo*/
+
 body {
     margin: 0px;
 }
 
+* {
+    /*margin: 0px;*/
+    font-family: 'Teko', sans-serif;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0;
+}
+
+section {
+    padding: 0 20px;
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+/*header*/
+
 .mainHeader {
-    display: flex;
-    align-items: center;
     background-image: url("../images/background-header.jpg");
-    padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
 }
 
-.siteIdentity img {
-    width: 270px;
+.topBar {
+    display: flex;
+    padding: 8px 25px 0px 25px;
 }
 
-.mainHeader li {
-    display: inline;
-    padding: 15px 20px;
-    font-family: "Teko";
-    font-size: 30px;
-    font-weight: 500;
+.topBar > a {
+    padding-right: 40px;
+}
+
+.topBar .topBarPromo {
+    width: 100%;
+}
+
+.topBar .topBarPromo marquee {
+    width: 100%;
     color: white;
 }
 
-.mainHeader nav {
-    align-self: flex-end;
+.topBar a {
+    color: white;
+    text-decoration: none;
 }
+
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.navBar .logo img {
+    width: 140px;
+}
+
+.navBar .cart {
+    padding-top: 6px;
+}
+
+.navBar .cart img {
+    width: 26px;
+}
+
+/*home*/
+
+.homeFeature {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: calc(100vh);
+    min-height: calc(100vh - 150px);
+    padding: 20px;
+}
+
+.homeFeature p {
+    padding-top: 110px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.1em;
+}
+
+.homeFeature a {
+    font-size: 24px;
+    padding: 6px 40px;
+    background-color: blueviolet;
+}
+
+.homeTeamDescription {
+    text-align: center;
+}
+
+.homeTeamDescription img{
+    max-width: 100%;
+}
+
+.homeFeaturedCourser {
+    text-align: center;
+}
+
+.homeFeaturedCourser img {
+    max-width: 100%;
+}
+
+.homeFeaturedCourser a {
+    font-size: 24px;
+    padding: 6px 40px;
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+}
+
+.homeCharacteristicsCourse {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homeCharacteristicsCourse > div {
+    width: 50%;
+    text-align: center;
+}
+
+.homeCharacteristicsCourse img {
+    max-width: 100%;
+}
+
+/*Catálogo*/
+
+.catalogCourses select{
+    width: 100%;
+    padding: 4px 10px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+
+.catalogCourses h1, .catalogCourses p {
+    text-align: center;
+}
+
+.catalogCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalogCards .card{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    border: none;
+}
+
+.catalogCards .card .cardBody a{
+    font-size: 24px;
+    padding: 6px 40px;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+/*Producto*/
+
+.productFile .card {
+    border: none;
+}
+
+.productFile .card ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.productFile .card ul li {
+    color: #4717F6;
+}
+
+.productFile .card a{
+    font-size: 24px;
+    padding: 6px 40px;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+/*footer*/
 
 .mainFooter {
-    display: flex;
-    background-color:#A239CA;
-    padding: 35px 100px;
+    background-image: url("../images/background-footer.jpg");
+    padding: 35px 20px;
+    background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-.footerBusinessInfo {
-    display: inline;
-    font-family: "Teko";
-    font-size: 18px;
-    font-weight: 500;
+.mainFooter h2{
     color: white;
 }
 
-.footerSiteMap {
-    display: flex;
-    font-family: "Teko";
-    font-size: 18px;
-    font-weight: 500;
+.mainFooter img {
+    max-width: 100%;
+}
+
+.mainFooter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mainFooter ul li {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.footerBusinessInfo p {
     color: white;
 }
+
+/*footer redes*/
 
 .footerSocialMedia {
-    padding: 0 20px;
+    text-align: center;
 }
 
-.footerSocialMedia img {
-    width: 35px;
+.footerSocialMedia img{
+    width: 50px;
+    padding: 0 10px;
 }
+
+/*subfooter*/
+
 .subFooter {
-    display: flex;
-    background-color: #e7dfdd;
-    font-family: "Teko";
-    font-size: 20px;
-    font-weight: 500;
-    color: black; 
-    justify-content: center; 
+text-align: center;
+background-color: #E7DFDD;
 }
+
+.subFooter p {
+    padding: 10px 0;
+    margin-bottom: 0px;
+    }
