@@ -38,4 +38,7 @@ We have worked with Agile methodology and SCRUM. We have also worked with Mob pr
 
 ## Next steps
 
+Integration of the favourites and shopping cart functionality.
+Implement the user management system. 
+Implementing the  Responsive in desktop version Header and Footer functionality.
 
